@@ -1,0 +1,27 @@
+{
+  "name": "reactive-renderer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc --build tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielfamiyeh/reactive-renderer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danielfamiyeh/reactive-renderer/issues"
+  },
+  "homepage": "https://github.com/danielfamiyeh/reactive-renderer#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
