@@ -1,11 +1,11 @@
 {
   "name": "reactive-renderer",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tsc --build tsconfig.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx esbuild src/index.ts --bundle --outfile=dist/bundle.js --format=esm --platform=browser && cp src/build/index.html dist/index.html",
+    "start": "npx http-server dist"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/danielfamiyeh/reactive-renderer/issues"
   },
